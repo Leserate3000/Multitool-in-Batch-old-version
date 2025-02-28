@@ -23,7 +23,7 @@ echo [38;2;255;255;0m        ╚╦═══(5) putty (ka was das macht)[0m
 echo [38;2;255;255;0m         ║[0m  
 echo [38;2;255;255;0m        ╚╦═══(6) PC Crasher (only file)[0m  
 echo [38;2;255;255;0m         ║[0m  
-echo [38;2;255;255;0m        ╚╦═══(7) coming soon...[0m
+echo [38;2;255;255;0m        ╚╦═══(7) more[0m
 echo [38;2;255;255;0m         ║[0m  
 set /p input=.%BS% [38;2;255;255;0m        ╚══════^>[0m  
 echo.
@@ -34,7 +34,7 @@ if /I %input% EQU 3 start cstmcmd.bat
 if /I %input% EQU 4 start clientdc
 if /I %input% EQU 5 start pty2
 if /I %input% EQU 6 start PC-Crash
-if /I %input% EQU 7 start comingsoon.vbs
+if /I %input% EQU 7 start more.vbs
 
 cls
 goto start
